@@ -7,10 +7,9 @@
     "atom-workspace": [
       "clearcase:make",
       "clearcase:upload",
-      "clearcase:selectFile",
+      "clearcase:uploadTo",
       "clearcase:newHost",
       "clearcase:editHost",
-      "clearcase:getFile",
       "clearcase:checkout",
       "clearcase:undoCheckout",
       "clearcase:checkin",
@@ -25,9 +24,8 @@
   },
   "dependencies": {
     "atom-space-pen-views": "^2.2.0",
-    "serializable": ">=1.0.0",
-    "osenv": ">=0.1.0",
     "fs-plus": ">=2.2.3",
-    "iconv-lite": "^0.4.15"
+    "iconv-lite": "^0.4.15",
+    "os-locale": "^2.0.0"
   }
 }
