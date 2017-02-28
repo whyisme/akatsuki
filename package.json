@@ -6,6 +6,7 @@
   "activationCommands": {
     "atom-workspace": [
       "clearcase:make",
+      "clearcase:makeTarget",
       "clearcase:upload",
       "clearcase:uploadTo",
       "clearcase:newHost",

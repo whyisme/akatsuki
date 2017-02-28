@@ -58,6 +58,10 @@
       'command': 'clearcase:make'
     }
     {
+      'label': 'Make Target'
+      'command': 'clearcase:makeTarget'
+    }
+    {
       'type': 'separator'
     }
     {
