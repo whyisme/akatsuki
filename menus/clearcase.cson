@@ -19,7 +19,7 @@
     "label": "File"
     "submenu": [
       "label": "Open ClearCase Project"
-      "command": "clearcase:openProject"
+      "command": "clearcase:newProject"
     ]
   }
 ]

@@ -14,7 +14,8 @@
       "clearcase:checkout",
       "clearcase:undoCheckout",
       "clearcase:checkin",
-      "clearcase:refreshFileStatus"
+      "clearcase:refreshFileStatus",
+      "clearcase:newProject"
     ]
   },
   "deserializers": {
