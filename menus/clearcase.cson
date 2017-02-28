@@ -5,28 +5,12 @@
       "label": "clearcase"
       "submenu": [
         {
-          "label": "cmdTest"
-          "command": "clearcase:cmdTest"
-        }
-        {
-          "label": "checkout"
-          "command": "clearcase:checkout1"
-        }
-        {
-          "label": "Select File"
-          "command": "clearcase:selectFile"
-        }
-        {
           "label": "New Host"
           "command": "clearcase:newHost"
         }
         {
           "label": "Edit Host"
           "command": "clearcase:editHost"
-        }
-        {
-          "label": "Get File(s)"
-          "command": "clearcase:getFile"
         }
       ]
     ]
@@ -67,6 +51,10 @@
     {
       'label': 'Refresh status'
       'command': 'clearcase:refreshFileStatus'
+    }
+    {
+      'label': 'Set Activity'
+      'command': 'clearcase:setActiity'
     }
     {
       'type': 'separator'
